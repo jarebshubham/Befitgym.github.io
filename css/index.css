@@ -1,0 +1,13 @@
+.main-body{
+    background: #212529;
+
+}
+.big-txt{
+    color: white !important;
+}
+.sml-txt{
+    color: rgb(225, 226, 243);
+}
+*{
+    margin: 0;
+}

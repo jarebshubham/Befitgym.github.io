@@ -1,0 +1,88 @@
+
+.first-sec{
+    height: 50vh;
+}
+.background{
+    margin-top: 56px;
+    background: rgb(0,0,0,0.7) url(aboutus.img/pexels-victor-freitas-2261477.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.background h3{
+    text-align: center;
+    padding-top: 8%;
+    color: white;
+    font-size: 56px
+}
+
+.background h3:hover{
+    font-size: 58px;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.background:hover{
+    background: rgb(0,0,0,0.8) url(aboutus.img/pexels-victor-freitas-2261477.jpg) no-repeat;
+    background-size: cover;
+    transition: ease-out 0.3s;
+ }
+
+.sec-scnd-background{
+    background-color: #212529;
+    padding-top: 40px;
+    
+}
+
+.content{
+    color: whitesmoke;
+    text-align: left;
+    padding: 5px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    width: 70%;
+}
+
+.main-box{
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+
+.big-txt{
+    font-size: 45px;
+}
+
+.img-one {
+    margin-top: 30px;
+    border-radius: 7px;
+    margin-top: 19vh;
+}
+
+.img-two{
+    margin-top: 20px;
+    border-radius: 7px;
+    margin-top: -13vh;
+}
+
+.img-one:hover{
+    transition: 0.4s ease-out;    
+    transform: scale(1.2);  
+
+}
+
+.img-two:hover{
+    transition: 0.4s ease-out;    
+    transform: scale(1.2);  
+}
+
+.footer-sec{
+    background: #81858a !important;
+}
+
+.mb-1{
+    color: white ;
+}
+.link-typ{
+    color: white !important;
+    text-decoration: none;
+}

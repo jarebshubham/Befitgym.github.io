@@ -1,0 +1,72 @@
+.first-sec{
+    height: 100vh;
+}
+.background{
+    margin-top: 56px;
+    background: rgb(0,0,0,0.7) url(contactus/luis-vidal-FodEsaNZs48-unsplash.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 100vh;
+    
+}
+.background h3{
+    text-align: center;
+    padding-top: 4%;
+    color: white;
+    font-size: 56px;
+    /* text-decoration: underline; */
+}
+
+.cont-form{
+    display: flex;
+    justify-content: center;
+    /* padding: 29px 0 1px 127px; */
+    padding-left: 49%;
+    padding-top: 12vh;
+    border: white 2px !important;
+}
+ .border-iframe{
+    border: solid 1px rgb(51, 50, 50);
+    border-radius: 9px;
+ }
+
+ /* .border-iframe:hover{
+    transition: 0.2s ease-out;    
+    transform: scale(1.1);
+ } */
+
+ .followus{
+     color: white;
+     padding-left: 90px;
+     padding-top: 4vh;
+ }
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .social-media{
+      font-size: 35px;
+  }
+
+  @media only screen and (max-width: 1000px){
+.cont-form{
+    padding-left: 0;
+    padding-top: 18vh;
+}
+.followus{
+    padding-left: 42%;
+    padding-top: 3vh;
+}
+.social-media{
+    justify-content: center;
+    display: flex;
+}
+  }
+  
+
+  

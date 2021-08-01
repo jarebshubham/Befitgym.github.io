@@ -1,0 +1,34 @@
+
+*{
+    background-color: #0a0705;
+    
+    
+}
+
+.main-sec-background{
+    padding: 0 20px;
+    /* margin: 5px 15px; */
+}
+
+.heading-contactus{
+    font-size: 37px;
+    text-align: center;
+  
+}
+
+
+.inpt-bck-clor{
+    background: gainsboro !important;
+}
+
+.submit-btn{
+    justify-content: center;
+    display: flex;
+    padding-top: 31px;
+  
+
+}
+.titl-head{
+    color: white;
+    padding-top: 12px;
+}
